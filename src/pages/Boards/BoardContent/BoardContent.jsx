@@ -51,7 +51,8 @@ function BoardContent() {
         justifyContent: 'center',
         alignItems: 'center',
         [theme.breakpoints.down('sm')]: {
-          height: 'calc(100vh - 70px - 130px)'
+          height: 'calc(100vh - 70px - 100px)',
+          mb: '50px'
         }
       }}>
       <Box
