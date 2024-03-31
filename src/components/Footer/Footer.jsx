@@ -15,7 +15,7 @@ function Footer() {
         justifyContent: 'center',
         alignItems: 'center',
         [theme.breakpoints.down('sm')]: {
-          height: '210px'
+          height: '250px'
         }
       }}>
       <Box>
@@ -26,8 +26,7 @@ function Footer() {
             fontSize: '14px',
             width: 900,
             [theme.breakpoints.down('sm')]: {
-              width: 300
-
+              width: 320
             }
           }}> This website was created as part of the Hisolutions program.
         The material on this website is provided for information only
