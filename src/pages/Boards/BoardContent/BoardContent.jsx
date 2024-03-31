@@ -58,7 +58,7 @@ function BoardContent() {
         sx={{
           width: '900px',
           [theme.breakpoints.down('sm')]: {
-            width: '350px'
+            width: '300px'
           } }}>
         {message ?
           (<Typography variant="body1"

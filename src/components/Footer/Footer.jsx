@@ -26,7 +26,7 @@ function Footer() {
             fontSize: '14px',
             width: 900,
             [theme.breakpoints.down('sm')]: {
-              width: 390
+              width: 300
 
             }
           }}> This website was created as part of the Hisolutions program.
